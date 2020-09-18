@@ -1,7 +1,7 @@
 import { createStyles, Theme } from '@material-ui/core';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 
-export const AppMaterialStyles = makeStyles((theme: Theme) =>
+export const makeAppStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       marginTop: 30,

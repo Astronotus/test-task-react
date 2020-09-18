@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd6432f9-6b92-4b74-b406-a38e8d0eaf1c" name="Default Changelist" comment="" />
+    <list default="true" id="dd6432f9-6b92-4b74-b406-a38e8d0eaf1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/tasks/tasks-list.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/task-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/task-list.dto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/task-lists.moc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/tasks/task-lists.moc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/task.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/tasks/task.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/tasks-filter-context.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/tasks/tasks-filter-context.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hdyEeirGRzlcxgapm1QgKSdceO" />
   <component name="ProjectViewState">
@@ -15,9 +43,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend-team2" />
+    <property name="ts.external.directory.path" value="D:\finances-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\finances-app\src\components" />
+      <recent name="D:\finances-app\src\containers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\finances-app\src\components\task" />
+      <recent name="D:\finances-app\src\containers" />
+      <recent name="D:\finances-app\src\containers\savings" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,17 +71,40 @@
       <option name="presentableId" value="Default" />
       <updated>1600355153938</updated>
       <workItem from="1600355155450" duration="418000" />
-      <workItem from="1600355640093" duration="298000" />
+      <workItem from="1600355640093" duration="64978000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600444042396">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600444042396" />
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2" timestamp="1600450281057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600450281057" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600421040240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600421040240" />
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1600355639907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600355639907" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1600426284810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600426284810" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600447708006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600447708006" />
   </component>
 </project>

@@ -1,0 +1,12 @@
+.MuiBottomNavigationAction-root.Mui-selected {
+  color: #7EBB80 !important;
+  border-bottom: 3px solid #7EBB80 !important;
+}
+
+.MuiBottomNavigationAction-label.Mui-selected {
+  font-size: 1rem !important;
+}
+
+.MuiBottomNavigation-root {
+  height: 100px !important;
+}
