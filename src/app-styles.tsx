@@ -3,7 +3,14 @@ import makeStyles from '@material-ui/core/styles/makeStyles';
 
 export const makeAppStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {
+    appWrapper: {
+      display: 'flex',
+      flexDirection: 'column',
+      position: 'relative',
+      height: '100vh',
+      backgroundColor: 'rgb(126, 187, 128)'
+    },
+    inputWrapper: {
       marginTop: 30,
       width: '100%',
       borderRadius: 25,
@@ -44,13 +51,6 @@ export const makeAppStyles = makeStyles((theme: Theme) =>
       marginTop: 40,
       fontSize: 30,
       color: 'white'
-    },
-    appWrapper: {
-      display: 'flex',
-      flexDirection: 'column',
-      position: 'relative',
-      height: '100vh',
-      backgroundColor: 'rgb(126, 187, 128)'
     }
   }),
 );

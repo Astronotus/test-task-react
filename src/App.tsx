@@ -18,7 +18,7 @@ const App: React.FC = () => {
       <Typography className={isDesktop ? classes.headerTextDesktop : classes.headerTextMobile}>
         We can helps with lots of things. Browse or search for what you need.
       </Typography>
-      <Paper component='form' className={classes.root}>
+      <Paper component='form' className={classes.inputWrapper}>
         <SearchIcon className={isDesktop ? classes.searchIconDesktop : classes.searchIconMobile}/>
         <InputBase
           className={isDesktop ? classes.inputDesktop : classes.inputMobile}
