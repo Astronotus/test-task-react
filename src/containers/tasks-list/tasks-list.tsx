@@ -19,7 +19,7 @@ const TasksList: React.FC = () => {
     .find(e => e.listType === page)
     .tasks
     .filter(str => str.text.toLocaleLowerCase('en-US')
-      .startsWith(filterValue.toLocaleLowerCase('en-US')));
+      .includes(filterValue.toLocaleLowerCase('en-US')));
   const isDesktop: boolean = useMediaQuery('(min-width: 1281px)');
 
   return (
