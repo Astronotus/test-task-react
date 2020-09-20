@@ -2,7 +2,6 @@ import React from 'react';
 import './navigation.css';
 import { withRouter } from 'react-router';
 
-import { useMediaQuery } from '@material-ui/core';
 import PageviewIcon from '@material-ui/icons/Pageview';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -18,7 +17,6 @@ const Navigation = ({ history }) => {
 
   const classes = makeNavigationStyles();
   const [ value, setPageName ] = React.useState('income');
-  const isDesktop: boolean = useMediaQuery('(min-width: 1281px)');
 
   const handleChange = (event: React.ChangeEvent<{}>, newValue: string) => {
     setPageName(newValue);
@@ -33,43 +31,43 @@ const Navigation = ({ history }) => {
       showLabels
       value={value}
       onChange={handleChange}
-      className={isDesktop ? classes.root : classes.rootMobile}>
+      className={classes.root}>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Income'
         value='income'
         onClick={() => handleClick('/income')}
-        icon={<MonetizationOnIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>}/>
+        icon={<MonetizationOnIcon className={classes.navIcon}/>}/>}/>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Expenses'
         value='expenses'
         onClick={() => handleClick('/expenses')}
-        icon={<ShoppingCartIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>}/>
+        icon={<ShoppingCartIcon className={classes.navIcon}/>}/>}/>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Savings'
         value='savings'
         onClick={() => handleClick('/savings')}
-        icon={<SentimentVerySatisfiedIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>}/>
+        icon={<SentimentVerySatisfiedIcon className={classes.navIcon}/>}/>}/>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Debt'
         value='debt'
         onClick={() => handleClick('/debt')}
-        icon={<ImportExportIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>
+        icon={<ImportExportIcon className={classes.navIcon}/>}/>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Goals'
         value='goals'
         onClick={() => handleClick('/goals')}
-        icon={<TrendingUpIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>
+        icon={<TrendingUpIcon className={classes.navIcon}/>}/>
       <BottomNavigationAction
-        classes={isDesktop ? null : { label: classes.navLabelsDesktop }}
+        classes={{ label: classes.navLabels }}
         label='Emergency'
         value='emergency'
         onClick={() => handleClick('/emergency')}
-        icon={<PageviewIcon className={isDesktop ? classes.navIconDesktop : classes.navIconMobile}/>}/>
+        icon={<PageviewIcon className={classes.navIcon}/>}/>
     </BottomNavigation>
   );
 };

@@ -13,12 +13,7 @@ export const makeTasksListStyles = makeStyles({
     width: 40,
     height: 40
   },
-  emptyListIconMobile: {
-    color: 'rgb(126, 187, 128)',
-    width: 80,
-    height: 80
-  },
-  emptyListTextMobile: {
+  emptyListText: {
     fontSize: 32
   }
 });

@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="dd6432f9-6b92-4b74-b406-a38e8d0eaf1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/task-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/task/task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend-team2" />
+    <property name="last_opened_file_path" value="D:/frontend-team2" />
     <property name="ts.external.directory.path" value="D:\finances-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600355153938</updated>
       <workItem from="1600355155450" duration="418000" />
-      <workItem from="1600355640093" duration="67884000" />
+      <workItem from="1600355640093" duration="69152000" />
+      <workItem from="1600585116665" duration="5453000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600450312996</created>
@@ -73,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600510110351</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edit classes name">
+      <created>1600510261826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600510261826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,17 +100,18 @@
     <MESSAGE value="first" />
     <MESSAGE value="edit filter logic, change startWith, to includes" />
     <MESSAGE value="edit bottom border radius main container" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit bottom border radius main container" />
+    <MESSAGE value="edit classes name" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit classes name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600444042396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600444042396" />
-    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2" timestamp="1600510109951">
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2" timestamp="1600592423218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600510109951" />
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600592423218" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600421040240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -102,10 +120,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600509295187" />
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1600355639907">
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1600585136813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600355639907" />
+    <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600585136813" />
     <state x="616" y="235" key="run.anything.popup" timestamp="1600426284810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

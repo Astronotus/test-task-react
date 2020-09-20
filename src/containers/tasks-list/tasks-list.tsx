@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { useParams } from 'react-router';
 
-import { Box, Typography, useMediaQuery } from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
 
 import Task from '../../components/task/task';
@@ -20,15 +20,14 @@ const TasksList: React.FC = () => {
     .tasks
     .filter(str => str.text.toLocaleLowerCase('en-US')
       .includes(filterValue.toLocaleLowerCase('en-US')));
-  const isDesktop: boolean = useMediaQuery('(min-width: 1281px)');
 
   return (
     <>
       {
         list.length > 0 ? list.map(e => <Task key={e.id} text={e.text} whenCreated={e.whenCreated}/>) :
         <Box className={classes.emptyListAlertWrapper}>
-          <AccessibilityNewIcon className={isDesktop ? classes.emptyListIcon : classes.emptyListIconMobile}/>
-          <Typography className={isDesktop ? null : classes.emptyListTextMobile}>It is empty here...</Typography>
+          <AccessibilityNewIcon className={classes.emptyListIcon }/>
+          <Typography >It is empty here...</Typography>
         </Box>
       }
     </>

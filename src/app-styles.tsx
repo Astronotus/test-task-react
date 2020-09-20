@@ -11,45 +11,28 @@ export const makeAppStyles = makeStyles((theme: Theme) =>
       backgroundColor: 'rgb(126, 187, 128)'
     },
     inputWrapper: {
-      marginTop: 30,
+      marginTop: 20,
       width: '100%',
-      borderRadius: 25,
+      borderRadius: 16,
       padding: '2px 4px',
       display: 'flex',
       alignItems: 'center',
     },
-    inputMobile: {
-      marginLeft: theme.spacing(5),
-      height: 100,
-      fontSize: '40px',
-      flex: 1,
-    },
-    inputDesktop: {
-      marginLeft: theme.spacing(5),
+    input: {
+      marginLeft: 8,
       height: 40,
-      fontSize: '20px',
+      fontSize: 16,
       flex: 1,
     },
-    searchIconMobile: {
-      marginLeft: theme.spacing(5),
+    searchIcon: {
+      marginLeft: 8,
       color: 'black',
-      width: 60,
-      height: 60
+      width: 20,
+      height: 20
     },
-    searchIconDesktop: {
-      marginLeft: theme.spacing(5),
-      color: 'black',
-      width: 30,
-      height: 30
-    },
-    headerTextMobile: {
-      marginTop: 30,
-      fontSize: 60,
-      color: 'white'
-    },
-    headerTextDesktop: {
-      marginTop: 40,
-      fontSize: 30,
+    headerText: {
+      marginTop: 20,
+      fontSize: 20,
       color: 'white'
     }
   }),

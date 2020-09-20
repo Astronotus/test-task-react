@@ -5,10 +5,10 @@ export const makeMainContentStyles = makeStyles(() =>
   createStyles({
     mainContent: {
       height: '100%',
-      marginTop: 40,
+      marginTop: 20,
       background: 'white',
-      borderTopLeftRadius: 25,
-      borderTopRightRadius: 25
+      borderTopLeftRadius: 16,
+      borderTopRightRadius: 16
     }
   })
 );

@@ -4,9 +4,10 @@
 }
 
 .MuiBottomNavigationAction-label.Mui-selected {
-  font-size: 1rem !important;
+  font-size: 10px !important;
 }
 
-.MuiBottomNavigation-root {
-  height: 100px !important;
+.MuiBottomNavigationAction-root{
+  padding: 0!important;
+  min-width: 0!important;
 }
