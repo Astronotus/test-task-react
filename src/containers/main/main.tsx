@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { Box } from '@material-ui/core';
 
+import TasksList from './tasks-list/tasks-list';
 import { makeMainContentStyles } from './main-styles';
-import TasksList from '../tasks-list/tasks-list';
 import Navigation from '../../components/navigation/navigation';
 
 const Main = () => {
@@ -13,11 +13,13 @@ const Main = () => {
   return (
     <Router>
       <Box className={classes.mainContent}>
-        <Navigation/>
         <Switch>
-          <Route path='/:page'>
+          <Redirect exact from='/' to='/income'/>
+          <Route path='/:currentPage'>
+            <Navigation/>
             <TasksList/>
           </Route>
+          <Redirect to='/income' />
         </Switch>
       </Box>
     </Router>

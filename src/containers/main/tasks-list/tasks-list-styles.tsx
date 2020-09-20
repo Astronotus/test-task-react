@@ -15,5 +15,10 @@ export const makeTasksListStyles = makeStyles({
   },
   emptyListText: {
     fontSize: 32
+  },
+  taskIcon: {
+    width: 20,
+    height: 20,
+    color: 'rgb(176, 176, 176)'
   }
 });

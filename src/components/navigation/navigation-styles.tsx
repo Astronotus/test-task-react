@@ -2,7 +2,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const makeNavigationStyles = makeStyles({
   root: {
-    borderRadius: 25,
+    marginTop: 2,
+    borderRadius: 12,
     display: 'flex'
   },
   navLabels: {
@@ -10,7 +11,7 @@ export const makeNavigationStyles = makeStyles({
     color: 'black',
   },
   navIcon: {
-    width: 20,
-    height: 20
+    width: 30,
+    height: 30
   }
 });

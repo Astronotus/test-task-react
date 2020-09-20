@@ -9,9 +9,10 @@ export const makeTaskStyles = makeStyles(() =>
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'space-between',
-      borderBottom: '2px dashed gainsboro',
+      borderBottom: '2px dotted gainsboro',
     },
     text: {
+      marginLeft: 14,
       width: 800,
     },
     rightColumnWrapper: {
@@ -22,13 +23,26 @@ export const makeTaskStyles = makeStyles(() =>
       justifyContent: 'flex-end',
     },
     time: {
-      fontSize: 12,
+      fontSize: 14,
       color: 'rgb(176, 176, 176)'
     },
     arrowButtonIcon: {
-      width: 10,
-      height: 10,
-      marginLeft: 10
+      width: 14,
+      height: 14,
+      marginLeft: 4
+    },
+    lockedTaskText: {
+      color: 'rgb(176, 176, 176)'
+    },
+    lockedTaskWrapper: {
+      marginLeft: 14,
+      width: 800,
+      display: 'flex',
+      flexDirection: 'column'
+    },
+    lockedTaskLabel: {
+      fontSize: 10,
+      color: 'rgb(176, 176, 176)'
     }
   }),
 );

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6432f9-6b92-4b74-b406-a38e8d0eaf1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/containers/main/tasks-list/tasks-list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app-styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/navigation-styles.tsx" afterDir="false" />
@@ -12,8 +12,11 @@
       <change beforePath="$PROJECT_DIR$/src/components/task/task-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task-styles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/task/task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/task.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main-styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/main/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list-styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/main/tasks-list/tasks-list-styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/tasks-list/tasks-list.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/task-lists.moc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/tasks/task-lists.moc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/tasks/task.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/tasks/task.model.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +37,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/frontend-team2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ts.external.directory.path" value="D:\finances-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\finances-app\src\components" />
-      <recent name="D:\finances-app\src\containers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\finances-app\src\components\task" />
       <recent name="D:\finances-app\src\containers" />
       <recent name="D:\finances-app\src\containers\savings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\finances-app\src\containers\main" />
+      <recent name="D:\finances-app\src\components" />
+      <recent name="D:\finances-app\src\containers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -60,7 +64,8 @@
       <updated>1600355153938</updated>
       <workItem from="1600355155450" duration="418000" />
       <workItem from="1600355640093" duration="69152000" />
-      <workItem from="1600585116665" duration="5453000" />
+      <workItem from="1600585116665" duration="23439000" />
+      <workItem from="1600612332730" duration="1919000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1600450312996</created>
@@ -90,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600510261826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix adaptive problems, refactoring">
+      <created>1600592484002</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600592484002</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,21 +113,26 @@
     <MESSAGE value="edit filter logic, change startWith, to includes" />
     <MESSAGE value="edit bottom border radius main container" />
     <MESSAGE value="edit classes name" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit classes name" />
+    <MESSAGE value="fix adaptive problems, refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix adaptive problems, refactoring" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600605402265">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600605402265" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600444042396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600444042396" />
-    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2" timestamp="1600592423218">
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2" timestamp="1600592481935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600592423218" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600421040240">
+    <state x="403" y="113" width="1346" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600592481935" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600605683859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600421040240" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600605683859" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600509295187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

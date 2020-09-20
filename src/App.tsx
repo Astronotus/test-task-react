@@ -10,23 +10,23 @@ import { TasksFilterContext } from './core/tasks/tasks-filter-context';
 const App: React.FC = () => {
 
   const classes = makeAppStyles();
-  const [ filterValue, setFilterValue ] = useState('');
+  const [ searchValue, setSearchValue ] = useState('');
 
   return (
     <Container maxWidth={'md'} className={classes.appWrapper}>
-      <Typography className={ classes.headerText }>
+      <Typography className={classes.headerText}>
         We can helps with lots of things. Browse or search for what you need.
       </Typography>
       <Paper component='form' className={classes.inputWrapper}>
-        <SearchIcon className={classes.searchIcon }/>
+        <SearchIcon className={classes.searchIcon}/>
         <InputBase
-          className={classes.input }
+          className={classes.input}
           placeholder='What do you need help with?'
           inputProps={{ 'aria-label': 'search google maps' }}
-          onChange={(e) => setFilterValue(e.target.value)}
+          onChange={(e) => setSearchValue(e.target.value)}
         />
       </Paper>
-      <TasksFilterContext.Provider value={filterValue}>
+      <TasksFilterContext.Provider value={searchValue}>
         <Main/>
       </TasksFilterContext.Provider>
     </Container>

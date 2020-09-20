@@ -1,6 +1,6 @@
 import React from 'react';
 import './navigation.css';
-import { withRouter } from 'react-router';
+import { useParams, withRouter } from 'react-router';
 
 import PageviewIcon from '@material-ui/icons/Pageview';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
@@ -16,7 +16,8 @@ import { makeNavigationStyles } from './navigation-styles';
 const Navigation = ({ history }) => {
 
   const classes = makeNavigationStyles();
-  const [ value, setPageName ] = React.useState('income');
+  const { currentPage } = useParams();
+  const [ value, setPageName ] = React.useState(currentPage);
 
   const handleChange = (event: React.ChangeEvent<{}>, newValue: string) => {
     setPageName(newValue);

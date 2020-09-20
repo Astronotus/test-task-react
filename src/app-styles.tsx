@@ -13,22 +13,22 @@ export const makeAppStyles = makeStyles((theme: Theme) =>
     inputWrapper: {
       marginTop: 20,
       width: '100%',
-      borderRadius: 16,
+      borderRadius: 12,
       padding: '2px 4px',
       display: 'flex',
       alignItems: 'center',
     },
     input: {
-      marginLeft: 8,
+      marginLeft: 10,
       height: 40,
       fontSize: 16,
       flex: 1,
     },
     searchIcon: {
-      marginLeft: 8,
+      marginLeft: 10,
       color: 'black',
-      width: 20,
-      height: 20
+      width: 30,
+      height: 30
     },
     headerText: {
       marginTop: 20,

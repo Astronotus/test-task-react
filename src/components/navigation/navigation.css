@@ -7,7 +7,17 @@
   font-size: 10px !important;
 }
 
-.MuiBottomNavigationAction-root{
-  padding: 0!important;
-  min-width: 0!important;
+.MuiBottomNavigationAction-root {
+  padding: 0 !important;
+  min-width: 0 !important;
+}
+
+@media screen and (min-width: 960px) {
+  .MuiBottomNavigationAction-label {
+    font-size: 12px !important;
+  }
+
+  .MuiBottomNavigationAction-label.Mui-selected {
+    font-size: 12px !important;
+  }
 }

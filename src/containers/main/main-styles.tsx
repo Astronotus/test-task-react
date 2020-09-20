@@ -7,8 +7,8 @@ export const makeMainContentStyles = makeStyles(() =>
       height: '100%',
       marginTop: 20,
       background: 'white',
-      borderTopLeftRadius: 16,
-      borderTopRightRadius: 16
+      borderTopLeftRadius: 12,
+      borderTopRightRadius: 12
     }
   })
 );
